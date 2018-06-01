@@ -1,0 +1,13 @@
+[package]
+name = "web-rs"
+version = "0.1.0"
+authors = ["Nolan Darilek <nolan@thewordnerd.info>"]
+
+[dependencies]
+actix-web = "0.6"
+juniper = "0.9"
+listenfd = "0.3"
+log = "0.4"
+stderrlog = "0.4"
+structopt = "0.2"
+structopt-derive = "0.2"
